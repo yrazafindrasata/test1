@@ -40,3 +40,4 @@ if( file_exists($cPath) ){
 }else{
 	die("Le fichier controller ".$c." n'existe pas");
 }
+// addDI
