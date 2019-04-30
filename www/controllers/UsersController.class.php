@@ -19,6 +19,7 @@ class UsersController{
 
 	public function saveAction(){
 
+		$p="hello";
 		$user = new Users();
 		$form = $user->getRegisterForm();
 		$method = strtoupper($form["config"]["method"]);
