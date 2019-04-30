@@ -8,5 +8,9 @@ class PagesController{
 		$v->assign("pseudo","prof");
 	}
 	
+	public function test(){
+		$p=1+1;
+	}
+	
 
 }
