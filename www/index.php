@@ -20,8 +20,7 @@ $slug = explode("?", $_SERVER["REQUEST_URI"])[0];
 $routes = Routing::getRoute($slug);
 extract($routes);
 
-
-// Vérifie l'existence du fichier  et de la classe pour charger le controlleur
+// Vérifie l'existence du fichier et de la classe pour charger le controlleur
 if( file_exists($cPath) ){
 	include $cPath;
 	if( class_exists($c)){

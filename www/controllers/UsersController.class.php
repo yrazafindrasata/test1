@@ -5,8 +5,7 @@ class UsersController{
 	public function defaultAction(){
 		echo "users default";
 	}
-
-
+	
 	public function addAction(){
 		$user = new Users();
 		$form = $user->getRegisterForm();
@@ -17,7 +16,6 @@ class UsersController{
 		
 		
 	}
-
 
 	public function saveAction(){
 
