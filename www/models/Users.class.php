@@ -8,6 +8,7 @@ class Users extends BaseSQL{
 	public $pwd;
 	public $role=1;
 	public $status=0;
+	public $adress;
 
 	public function __construct(){
 		parent::__construct();
